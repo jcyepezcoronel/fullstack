@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Licensed Frozen Hat",
+        "url": "https://source.unsplash.com/1600x900/?product",
+        "status": "online",
+        "cards":[
+            {
+                "subtitle":"001",
+                "body": "The letter-spacing property is used to specify the space between the characters in a text."
+            },
+            {
+                "subtitle":"002",
+                "body": "The following example demonstrates how to increase or decrease the space between characters:"
+            },
+            {
+                "subtitle":"003",
+                "body": "The white-space property specifies how white-space inside an element is handled."
+            }
+            ,
+            {
+                "subtitle":"009",
+                "body": "I had read some of the responses and they didn't seem to work for me. I am using Typescript 2.9.2, Angular 6 and trying to import JSON in a Jasmine Unit Test. This is what did the trick for me"
+            }
+        ]
+
+    },
+    {
+        "id": 2,
+        "title": "seem to work for me",
+        "url": "https://source.unsplash.com/1600x900/?product",
+        "status": "offline",
+        "cards":[
+            {
+                "subtitle":"001",
+                "body": "The letter-spacing property is used to specify the space between the characters in a text."
+            },
+            {
+                "subtitle":"002",
+                "body": "The following example demonstrates how to increase or decrease the space between characters:"
+            },
+            {
+                "subtitle":"009",
+                "body": "I had read some of the responses and they didn't seem to work for me. I am using Typescript 2.9.2, Angular 6 and trying to import JSON in a Jasmine Unit Test. This is what did the trick for me"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "letter-spacing property is",
+        "url": "https://source.unsplash.com/1600x900/?product",
+        "status": "online",
+        "cards":[
+            {
+                "subtitle":"001",
+                "body": "The letter-spacing property is used to specify the space between the characters in a text."
+            },
+            {
+                "subtitle":"002",
+                "body": "The following example demonstrates how to increase or decrease the space between characters:"
+            }
+            
+        ]
+    }
+]

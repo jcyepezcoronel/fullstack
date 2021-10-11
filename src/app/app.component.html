@@ -1,0 +1,46 @@
+<div class="div container">
+  <div class="div title"><h2>NODES</h2></div>
+
+  <accordion [showArrows]="true" [closeOthers]="'oneAtATime'" isAnimated="true">
+        <accordion-group *ngFor="let item of dataJson">
+            <accordion-heading>
+              <div class="div box-title">
+                <accordion-toggle>{{item.title}}</accordion-toggle>
+              </div>
+              <div class="div">
+                <span [ngClass]="item.status =='online' ? 'dot-success' : 'dot-wrong'" ></span><span style="letter-spacing: 2px;">{{item.status}}</span>
+              </div>
+              <div class="div">
+                <p class="link">{{item.url}}</p>
+              </div>
+            </accordion-heading>
+            <div class="div card-body" *ngFor="let card of item.cards">
+              <span class="subtitle">{{card.subtitle}}</span>
+              <p>{{card.body}}</p>
+            </div>
+        </accordion-group>
+  </accordion>
+
+<!-- 
+  <accordion [showArrows]="true" [closeOthers]="'oneAtATime'" isAnimated="true">
+        <accordion-group>
+            <accordion-heading>
+                <accordion-toggle>holaa!</accordion-toggle>
+            </accordion-heading>
+            |<div class="div card-body">
+                buenas !!! 
+            </div>
+        </accordion-group>
+
+        <accordion-group>
+          <accordion-heading>
+              <accordion-toggle>beebeeee!</accordion-toggle>
+          </accordion-heading>
+          |<div class="div card-body">
+              no lo se  !!! 
+          </div>
+      </accordion-group>
+  </accordion> -->
+</div>
+
+

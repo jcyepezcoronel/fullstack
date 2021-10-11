@@ -1,0 +1,65 @@
+
+:host::ng-deep.panel{
+  background-color: white;
+    color:black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 5px 30px 10px 30px;
+    margin-bottom: 10px;
+}
+
+.box-title{
+    width: 90%; 
+    float:left;
+}
+
+.prueba{
+  background-color: black;
+}
+
+.pruebawhite{
+  background-color: white;
+}
+
+.container{
+    margin:100px 100px 0 100px;
+}
+
+.title{
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.dot-success {
+    height: 7px;
+    width: 7px;
+    background-color: rgb(13, 221, 30);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+.dot-wrong {
+    height: 7px;
+    width: 7px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.link {
+    color: rgb(197, 197, 197);
+}
+
+.subtitle{
+    color:blue;
+    letter-spacing: 3px;
+}
+
+.card-body{
+    background-color: rgb(196, 196, 196);
+    border-radius: 2px;
+    padding: 5px 15px 1px 15px;
+    margin-top: 3px;
+}
